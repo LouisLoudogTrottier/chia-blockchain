@@ -1,5 +1,5 @@
 ```
-Usage: chia [OPTIONS] COMMAND [ARGS]...
+## USAGE: : chia [OPTIONS] COMMAND [ARGS]...
 
   Manage chia blockchain infrastructure (1.1.7.dev176)
 
@@ -24,7 +24,7 @@ Commands:
 
   Try 'chia start node', 'chia netspace -d 192', or 'chia show -s'
 
-Usage: chia configure [OPTIONS]
+## USAGE: : chia configure [OPTIONS]
 
 Options:
   -t, --testnet [true|t|false|f]  configures for connection to testnet
@@ -43,7 +43,7 @@ Options:
   --set-peer-count TEXT           Update the target peer count (default 80)
   -h, --help                      Show this message and exit.
 
-Usage: chia farm [OPTIONS] COMMAND [ARGS]...
+## USAGE: : chia farm [OPTIONS] COMMAND [ARGS]...
 
 Options:
   -h, --help  Show this message and exit.
@@ -52,7 +52,7 @@ Commands:
   challenges  Show the latest challenges
   summary     Summary of farming information
 
-Usage: chia init [OPTIONS]
+## USAGE: : chia init [OPTIONS]
 
   Create a new configuration or migrate from previous versions to current
 
@@ -70,7 +70,7 @@ Options:
 
   -h, --help               Show this message and exit.
 
- Usage: chia keys [OPTIONS] COMMAND [ARGS]...
+ ## USAGE: : chia keys [OPTIONS] COMMAND [ARGS]...
 
   Create, delete, view and use your key pairs
 
@@ -87,7 +87,7 @@ Commands:
   sign                Sign a message with a private key
   verify              Verify a signature with a pk
 
- Usage: chia netspace [OPTIONS]
+ ## USAGE: : chia netspace [OPTIONS]
 
   Calculates the estimated space on the network given two block header
   hashes.
@@ -110,7 +110,7 @@ Options:
   -h, --help                     Show this message and exit.
 
 
- Usage: chia plotnft [OPTIONS] COMMAND [ARGS]...
+ ## USAGE: : chia plotnft [OPTIONS] COMMAND [ARGS]...
 
 Options:
   -h, --help  Show this message and exit.
@@ -119,7 +119,7 @@ Commands:
   create  Create a plot NFT
   show    Show plotnft information
 
- Usage: chia plots [OPTIONS] COMMAND [ARGS]...
+ ## USAGE: : chia plots [OPTIONS] COMMAND [ARGS]...
 
   Create, add, remove and check your plots
 
@@ -133,12 +133,12 @@ Commands:
   remove  Removes a directory of plots from config.yaml
   show    Shows the directory of current plots
 
- Usage: chia run_daemon [OPTIONS]
+ ## USAGE: : chia run_daemon [OPTIONS]
 
 Options:
   -h, --help  Show this message and exit.
 
- Usage: chia show [OPTIONS]
+ ## USAGE: : chia show [OPTIONS]
 
 Options:
   -p, --rpc-port INTEGER          Set the port where the Full Node is hosting
@@ -162,7 +162,7 @@ Options:
                                   Look up a block by block header hash
   -h, --help                      Show this message and exit.
 
- Usage: chia start [OPTIONS] [all|node|harvester|farmer|farmer-no-
+ ## USAGE: : chia start [OPTIONS] [all|node|harvester|farmer|farmer-no-
                   wallet|farmer-only|timelord|timelord-only|timelord-launcher-
                   only|wallet|wallet-only|introducer|simulator]...
 
@@ -170,7 +170,7 @@ Options:
   -r, --restart  Restart running services
   -h, --help     Show this message and exit.
 
- Usage: chia stop [OPTIONS] [all|node|harvester|farmer|farmer-no-wallet|farmer-
+ ## USAGE: : chia stop [OPTIONS] [all|node|harvester|farmer|farmer-no-wallet|farmer-
                  only|timelord|timelord-only|timelord-launcher-
                  only|wallet|wallet-only|introducer|simulator]...
 
@@ -178,12 +178,12 @@ Options:
   -d, --daemon  Stop daemon
   -h, --help    Show this message and exit.
 
- Usage: chia version [OPTIONS]
+ ## USAGE: : chia version [OPTIONS]
 
 Options:
   -h, --help  Show this message and exit.
 
- Usage: chia wallet [OPTIONS] COMMAND [ARGS]...
+ ## USAGE: : chia wallet [OPTIONS] COMMAND [ARGS]...
 
 Options:
   -h, --help  Show this message and exit.
