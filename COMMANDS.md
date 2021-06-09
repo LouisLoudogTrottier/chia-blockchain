@@ -1,7 +1,8 @@
-#### Usage: chia [OPTIONS] COMMAND [ARGS]...
+```
+Usage: chia [OPTIONS] COMMAND [ARGS]...
 
   Manage chia blockchain infrastructure (1.1.7.dev176)
-```
+
 Options:
   --root-path PATH  Config file root  [default: /home/user/.chia/testnet7]
   -h, --help        Show this message and exit.
@@ -22,10 +23,9 @@ Commands:
   wallet      Manage your wallet
 
   Try 'chia start node', 'chia netspace -d 192', or 'chia show -s'
-```
 
-#### Usage: chia configure [OPTIONS]
-```
+Usage: chia configure [OPTIONS]
+
 Options:
   -t, --testnet [true|t|false|f]  configures for connection to testnet
   --set-node-introducer TEXT      Set the introducer for node - IP:Port
@@ -42,9 +42,9 @@ Options:
 
   --set-peer-count TEXT           Update the target peer count (default 80)
   -h, --help                      Show this message and exit.
-```
-#### Usage: chia farm [OPTIONS] COMMAND [ARGS]...
-```
+
+Usage: chia farm [OPTIONS] COMMAND [ARGS]...
+
 Options:
   -h, --help  Show this message and exit.
 
@@ -52,7 +52,7 @@ Commands:
   challenges  Show the latest challenges
   summary     Summary of farming information
 
-#### Usage: chia init [OPTIONS]
+Usage: chia init [OPTIONS]
 
   Create a new configuration or migrate from previous versions to current
 
@@ -69,9 +69,9 @@ Options:
                            [directory]
 
   -h, --help               Show this message and exit.
-```
-#### Usage: chia keys [OPTIONS] COMMAND [ARGS]...
-```
+
+ Usage: chia keys [OPTIONS] COMMAND [ARGS]...
+
   Create, delete, view and use your key pairs
 
 Options:
@@ -86,9 +86,9 @@ Commands:
   show                Displays all the keys in keychain
   sign                Sign a message with a private key
   verify              Verify a signature with a pk
-```
-#### Usage: chia netspace [OPTIONS]
-```
+
+ Usage: chia netspace [OPTIONS]
+
   Calculates the estimated space on the network given two block header
   hashes.
 
@@ -109,18 +109,18 @@ Options:
 
   -h, --help                     Show this message and exit.
 
-```
-#### Usage: chia plotnft [OPTIONS] COMMAND [ARGS]...
-```
+
+ Usage: chia plotnft [OPTIONS] COMMAND [ARGS]...
+
 Options:
   -h, --help  Show this message and exit.
 
 Commands:
   create  Create a plot NFT
   show    Show plotnft information
-```
-#### Usage: chia plots [OPTIONS] COMMAND [ARGS]...
-```
+
+ Usage: chia plots [OPTIONS] COMMAND [ARGS]...
+
   Create, add, remove and check your plots
 
 Options:
@@ -132,14 +132,14 @@ Commands:
   create  Create plots
   remove  Removes a directory of plots from config.yaml
   show    Shows the directory of current plots
-```
-#### Usage: chia run_daemon [OPTIONS]
-```
+
+ Usage: chia run_daemon [OPTIONS]
+
 Options:
   -h, --help  Show this message and exit.
-```
-#### Usage: chia show [OPTIONS]
-```
+
+ Usage: chia show [OPTIONS]
+
 Options:
   -p, --rpc-port INTEGER          Set the port where the Full Node is hosting
                                   the RPC interface. See the rpc_port under
@@ -161,30 +161,30 @@ Options:
   -b, --block-by-header-hash TEXT
                                   Look up a block by block header hash
   -h, --help                      Show this message and exit.
-```
-#### Usage: chia start [OPTIONS] [all|node|harvester|farmer|farmer-no-
+
+ Usage: chia start [OPTIONS] [all|node|harvester|farmer|farmer-no-
                   wallet|farmer-only|timelord|timelord-only|timelord-launcher-
                   only|wallet|wallet-only|introducer|simulator]...
-```
+
 Options:
   -r, --restart  Restart running services
   -h, --help     Show this message and exit.
-```
-#### Usage: chia stop [OPTIONS] [all|node|harvester|farmer|farmer-no-wallet|farmer-
+
+ Usage: chia stop [OPTIONS] [all|node|harvester|farmer|farmer-no-wallet|farmer-
                  only|timelord|timelord-only|timelord-launcher-
                  only|wallet|wallet-only|introducer|simulator]...
-```
+
 Options:
   -d, --daemon  Stop daemon
   -h, --help    Show this message and exit.
-```
-#### Usage: chia version [OPTIONS]
-```
+
+ Usage: chia version [OPTIONS]
+
 Options:
   -h, --help  Show this message and exit.
-```
-#### Usage: chia wallet [OPTIONS] COMMAND [ARGS]...
-```
+
+ Usage: chia wallet [OPTIONS] COMMAND [ARGS]...
+
 Options:
   -h, --help  Show this message and exit.
 
